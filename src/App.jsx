@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import './estilo.css'
 
 function App() {
   const [input, setInput] = useState('')
@@ -14,7 +14,7 @@ function App() {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' , backgroundColor: 'gray'}}>
       <h1>{input}</h1>
       <input type='text' onChange={cambiaInput} style={{ width:'50%', textAlign:'center' }} />
-    </div>
+      </div>
     </body>
     </>
   )
